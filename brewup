@@ -6,5 +6,5 @@ brew update && \
   brew doctor && \
   brew cask doctor && \
   brew outdated && \
-  brew cask outdated && \
+  brew outdated --cask && \
   brew cleanup -s
